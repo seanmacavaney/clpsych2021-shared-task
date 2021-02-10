@@ -94,7 +94,7 @@ Note that although we performed spot checks to make sure this dataset seems reas
 the practice dataset has **not** been validated by the community, so results from it
 should be approached with skepticism.
 
-More information about using the Practice Dataset is found [here](https://github.com/anjmittu/clpsych2021-shared-task-data/tree/master/practice-dataset)
+More information about using the Practice Dataset is found [here](https://github.com/seanmacavaney/clpsych2021-shared-task/tree/main/practice-dataset)
 
 ### Baseline System
 
