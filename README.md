@@ -9,8 +9,7 @@ Resources in support of this task are being provided by Qntfy (which runs [OurDa
 ## Quick Links
 
  - Register your team for the shared task: [form][register]
-   (Note: there will be a cap on registration, currently anticipated to be 
-   a maximum of 30 teams.)
+   (Note: Note that we may need to impose a cap on the number of teams that can participate.)
  - Google Group: [clpsych-2021-shared-task][googlegroup]
  - Contact task organizers: [email][contact-us]
 <!-- - Contact Enclave: ... TODO-->
@@ -125,7 +124,7 @@ camera-ready shared task papers.
 You can contact the organizers [here][contact-us]
 
 
-[contact-us]: clpsych-2021-shared-task-organizers@googlegroups.com
+[contact-us]: mailto:clpsych-2021-shared-task-organizers@googlegroups.com
 [owid]: https://ourworldindata.org/suicide
 [odh]: https://ourdatahelps.org/
 [register]: https://forms.gle/A9S5Qq7UcDY8CEMp9
@@ -136,4 +135,4 @@ You can contact the organizers [here][contact-us]
 [franklin2017]: https://nocklab.fas.harvard.edu/files/nocklab/files/franklin_2016_riskfactors_metaanal50_psychbull.pdf
 [coppersmith2018]: https://search.proquest.com/docview/2168011772
 [ophir2020]: https://www.nature.com/articles/s41598-020-73917-0
-[umdreddit]:umiacs.umd.edu/~resnik/umd_reddit_suicidality_dataset.html
+[umdreddit]:https://umiacs.umd.edu/~resnik/umd_reddit_suicidality_dataset.html
