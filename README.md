@@ -19,7 +19,7 @@ Resources in support of this task are being provided by Qntfy (which runs [OurDa
 ## Timeline
 
  - **XX Feb 2021** - Task announced and [registration open][register]
- - **15 Feb 2021** - Availability of training data and Elcave.
+ - **15 Feb 2021** - Availability of training data and Enclave.
                      Note that you need to submit DUA before access to
                      Enclave is available.
  - **29 Mar 2021** - System submissions due.
@@ -40,7 +40,7 @@ each line represents a single user and their tweets. The format is as follows:
 ```python
 {
 	"id": str, # anonymized user ID- used for submission
-	"has_attempt": bool, # true for users with a known attempt, false for control
+	"label": bool, # 1 for users with a known attempt, 0 for control (in the practice dataset: true for depression hashtag, false for control)
 	"date_of_attempts": [str], # the known dates of attempts
 	"tweets": [
 		{
@@ -52,7 +52,7 @@ each line represents a single user and their tweets. The format is as follows:
 }
 ```
 
-Naturally, the `has_attempt` and `date_of_attempts` fields are not available in
+Naturally, the `date_of_attempts` fields are not available in
 the test set.
 
 ### Data Access (Enclave)
@@ -76,8 +76,8 @@ TSV file with your results. The TSV file should be formatted as follows:
 [USER_ID] \t [LABEL] \t [SCORE]
 ```
 
-Where `USER_ID` is the ID field from the source file, `LABEL` is either `SUICIDE`
-or `CONTROL`, and `SCORE` is a real-valued score output score from your system,
+Where `USER_ID` is the ID field from the source file, `LABEL` is either `1` for suicide
+or `0` for control, and `SCORE` is a real-valued score output score from your system,
 where larger numbers indicate the `SUICIDE` class and lower numbers indicate
 `CONTROL`. The scores allow us to compute AUC and ROC curves, whereas the
 label specifies the particular operating point you choose for your submission.
