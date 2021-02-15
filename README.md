@@ -19,10 +19,10 @@ Resources in support of this task are being provided by Qntfy (which runs [OurDa
 ## Timeline
 
  - **XX Feb 2021** - Task announced and [registration open][register]
- - **15 Feb 2021** - Availability of training data and Enclave.
+ -  **1 Mar 2021** - Availability of training data and Enclave.
                      Note that you need to submit DUA before access to
                      Enclave is available.
- - **29 Mar 2021** - System submissions due.
+ - **31 Mar 2021** - System submissions due. (11:59pm AOE)
  -  **1 Apr 2021** - Results announced.
  -  **8 Apr 2021** - System description papers due.
  - **15 Apr 2021** - Acceptance notification.
