@@ -1,4 +1,5 @@
 import re
+import sys
 import pandas as pd
 import twint
 import json
@@ -23,19 +24,22 @@ def main():
         c.Output = 'tmp'
         c.Store_object = True
         c.Hide_output = True
-        twint.run.Search(c)
-        id2idx = {str(tweet['id']): i for i, tweet in enumerate(data['tweets'])}
-        for tweet in twint.output.tweets_list:
-            if str(tweet.id) in id2idx:
-                text = re.sub(r'#\w+', '', tweet.tweet) # remove hashtags
-                data['tweets'][id2idx[str(tweet.id)]]['text'] = text
-                del id2idx[str(tweet.id)]
-        if id2idx:
-            print(f"couldn't find {len(id2idx)} tweets for user {data['id']}")
-        json.dump(data, args.target)
-        args.target.write('\n')
-        args.target.flush()
-
+        try:
+            twint.run.Search(c)
+            id2idx = {str(tweet['id']): i for i, tweet in enumerate(data['tweets'])}
+            for tweet in twint.output.tweets_list:
+                if str(tweet.id) in id2idx:
+                    text = re.sub(r'#\w+', '', tweet.tweet) # remove hashtags
+                    data['tweets'][id2idx[str(tweet.id)]]['text'] = text
+                    del id2idx[str(tweet.id)]
+            if id2idx:
+                print(f"couldn't find {len(id2idx)} tweets for user {data['id']}")
+            json.dump(data, args.target)
+            args.target.write('\n')
+            args.target.flush()
+        except:
+            ex = sys.exc_info()[0]
+            print(f'error for user {data['id']}. Skipping. {ex}')
 
 if __name__ == '__main__':
     main()
