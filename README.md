@@ -68,9 +68,10 @@ Detailed information about access to the Enclave, the computing environment, ava
 ### Scoring and Submission Format
 
 The official task metrics are F1 score, F2 score (weights recall higher than
-precision), Precision, Recall, and AUC. We provide our official scoring script here:
-[scoring script][score-script]. The script takes in the source file and a
-TSV file with your results. The TSV file should be formatted as follows:
+precision), True Positive Rate, False Alarm Rate, and AUC. We provide our
+official scoring script here: [scoring script][score-script]. The script
+takes in the source file and a TSV file with your results. The TSV file
+should be formatted as follows:
 
 ```
 [USER_ID] \t [LABEL] \t [SCORE]
