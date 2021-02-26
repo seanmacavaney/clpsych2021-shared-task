@@ -39,7 +39,7 @@ def main():
             args.target.flush()
         except:
             ex = sys.exc_info()[0]
-            print(f'error for user {data['id']}. Skipping. {ex}')
+            print(f'error for user {data["id"]}. Skipping. {ex}')
 
 if __name__ == '__main__':
     main()
