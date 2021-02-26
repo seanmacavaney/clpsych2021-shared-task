@@ -22,7 +22,7 @@ Resources in support of this task are being provided by Qntfy (which runs [OurDa
 
 ## Timeline
 
- - **XX Feb 2021** - Task announced and [registration open][register]
+ - **26 Feb 2021** - Task announced and [registration open][register]
  -  **1 Mar 2021** - Availability of training data and Enclave.
                      Note that you need to submit DUA before access to
                      Enclave is available.
