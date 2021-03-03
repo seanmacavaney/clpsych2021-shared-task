@@ -72,6 +72,11 @@ Detailed information about access to the Enclave, the computing environment, ava
 
 ### Scoring and Submission Format
 
+The shared task includes two subtasks: 
+
+ - Prediction of a suicide attempt 30 days prior (odh_shared_task_data_30)
+ - Prediction of suicide 6 months prior (odh_shared_task_data_182)
+
 The official task metrics are F1 score, F2 score (weights recall higher than
 precision), True Positive Rate, False Alarm Rate, and AUC. We provide our
 official scoring script here: [scoring script][score-script]. The script
