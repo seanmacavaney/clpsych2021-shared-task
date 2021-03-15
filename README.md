@@ -27,10 +27,10 @@ Resources in support of this task are being provided by Qntfy (which runs [OurDa
  -  **1 Mar 2021** - Availability of training data and Enclave.
                      Note that you need to submit DUA before access to
                      Enclave is available.
- - **31 Mar 2021** - System submissions due. (11:59pm AOE)
- -  **1 Apr 2021** - Results announced.
- -  **8 Apr 2021** - System description papers due.
- - **15 Apr 2021** - Acceptance notification.
+ -  **6 Apr 2021** - System submissions due. (11:59pm AOE)
+ -  **7 Apr 2021** - Results announced.
+ - **14 Apr 2021** - System description papers due.
+ - **21 Apr 2021** - Acceptance notification.
  - **23 Apr 2021** - Camera ready due.
 
 ## Data
