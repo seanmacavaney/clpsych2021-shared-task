@@ -46,7 +46,7 @@ each line represents a single user and their tweets. The format is as follows:
 {
 	"id": str, # anonymized user ID- used for submission
 	"label": bool, # 1 for users with a known attempt, 0 for control (in the practice dataset: true for depression hashtag, false for control)
-	"date_of_attempts": [str], # the known dates of attempts
+	"date_of_attempts": str, # the known date of attempt or empty string if no attempt
 	"tweets": [
 		{
 			"id": str,
