@@ -128,7 +128,7 @@ camera-ready shared task papers.
 
 ## Organizers
 
- - [Sean MacAvaney](https://macavaney.us/) (University of Glasgow, Georgetown University)
+ - [Sean MacAvaney](https://macavaney.us/) (IR Lab Georgetown University, University of Glasgow)
  - [Anjali Mittu](https://anjali.mittudev.com/) (University of Maryland)
  - [Philip Resnik](http://users.umiacs.umd.edu/~resnik/) (University of Maryland)
 
