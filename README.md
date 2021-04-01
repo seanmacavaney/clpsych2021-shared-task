@@ -9,12 +9,13 @@ Resources in support of this task are being provided by Qntfy (which runs [OurDa
 
 ## Quick Links
 
- - Register your team for the shared task: [form][register]
-   *(Note: Note that we may need to impose a cap on the number of teams that can participate.)*
- - Register each team member of your team: [form](https://docs.google.com/forms/d/e/1FAIpQLSe43xvI1pcPHjMIL28MeCp2IU7j02u_l_ljEmHl7A03tQsClA/viewform?usp=sf_link)
-   - In addition, each team member must send an email to [the task organizers][contact-us with subject line "CLPsych shared task: <team_name>" with the following PDF attachments:
-   - NORC Non-disclosure: [form](https://github.com/seanmacavaney/clpsych2021-shared-task/raw/main/clpsych2021_NORC_nondisclosure_agreement.pdf)
-   - NORC DUA: [form](https://raw.githubusercontent.com/seanmacavaney/clpsych2021-shared-task/main/norc_dua.pdf)
+ - ~Register your team for the shared task: [form][register]~
+   ~*(Note: Note that we may need to impose a cap on the number of teams that can participate.)*~
+ - ~Register each team member of your team: [form](https://docs.google.com/forms/d/e/1FAIpQLSe43xvI1pcPHjMIL28MeCp2IU7j02u_l_ljEmHl7A03tQsClA/viewform?usp=sf_link)~
+   - ~In addition, each team member must send an email to [the task organizers][contact-us with subject line "CLPsych shared task: <team_name>" with the following PDF attachments:~
+   - ~NORC Non-disclosure: [form](https://github.com/seanmacavaney/clpsych2021-shared-task/raw/main/clpsych2021_NORC_nondisclosure_agreement.pdf)~
+   - ~NORC DUA: [form](https://raw.githubusercontent.com/seanmacavaney/clpsych2021-shared-task/main/norc_dua.pdf)~
+ - **Registration is now closed**
  - Google Group: [clpsych-2021-shared-task][googlegroup]
  - Contact task organizers: [email][contact-us]
 <!-- - Contact Enclave: ... TODO-->
